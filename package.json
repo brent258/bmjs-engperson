@@ -1,0 +1,28 @@
+{
+  "name": "bmjs-engperson",
+  "version": "1.0.0",
+  "description": "An english language utility for checking if a given pronoun is first-person, singular or plural.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brent258/bmjs-engperson.git"
+  },
+  "keywords": [
+    "english",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Brent McCoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brent258/bmjs-engperson/issues"
+  },
+  "homepage": "https://github.com/brent258/bmjs-engperson#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
