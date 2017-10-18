@@ -1,19 +1,19 @@
 # bmjs-engperson
-An english language utility for checking if a given pronoun is first-person, singular or plural.
+An English language utility for checking if a given pronoun is first-person, singular or plural. Receives an active pronoun string (e.g. "I", "he", "they") a returns a string of either "singular", "plural" or "first".
 
 *Example usage:*
 ```javascript
-const func = require('bmjs-engperson');
+const person = require('bmjs-engperson');
 
-let exampleOne = func('they');
+let exampleOne = person('they');
 console.log(exampleOne); // returns plural
 
-let exampleTwo = func('he');
+let exampleTwo = person('he');
 console.log(exampleTwo); // returns singular
 
-let exampleThree = func('i');
+let exampleThree = person('i');
 console.log(exampleThree); // returns first
 
-let exampleFour = func();
+let exampleFour = person();
 console.log(exampleFour); // returns a default of singular
 ```
